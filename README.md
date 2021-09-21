@@ -13,7 +13,7 @@ on cartesian system. He wants to calculate the length of the line. All the input
 
 ## How to run test
 
-TBD
+- Run `gradle test`
 
 ## Build instructions
 
@@ -21,4 +21,7 @@ TBD
 
 ## How to use instructions
 
-TBD
+`LineLength lineLength = new LineLength()`
+
+- For length on Origin / Point 0 with zero length:
+  `lineLength.calculateZeroLengthLine()`
