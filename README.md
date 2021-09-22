@@ -25,3 +25,5 @@ on cartesian system. He wants to calculate the length of the line. All the input
 
 - For length on Origin / Point 0 with zero length:
   `lineLength.calculateZeroLengthLine()`
+- For length on Horizontal Origin:
+  `lineLength.calculateHorizontalFromOrigin()`
